@@ -1,3 +1,39 @@
+#Structure de la page index
+    SECTION class="project" id="project1"
+        HEADER class="projectHeader"
+            H2
+            ARTICLE class="projectPresentation"
+                P class="oldProjectPresentation" + BUTTON edit
+                FORM class="form newProjectPresentation"
+                    INPUT class"projectTitleForm" id="projectTitleForm1"
+                    INPUT class"projectPresentationForm" I id="projectPresentationForm1"
+                    BUTTON save
+        DIV BUTTON dell    
+        SECTION class="projectContent container
+            SECTION class="table" id="table1">
+                HEADER class="tableHeader"
+                    H3
+                    ARTICLE class="tablePresentation"
+                        P class="oldProjectPresentation" + BUTTON edit
+                        FORM class"newTablePresentation"
+                            INPUT class="tableTitleForm" id="tableTitleForm1-1"
+                            INPUT class="tablePresenationForm" id="tablePresenationForm1-1"
+                            BUTTON save
+                DIV BUTTON dell  
+                SECTION class="tableContent"
+                    ARTICLE class="articles"
+                        DIV class="articleContent" + BUTTON edit
+                        FORM class ="newArticle"
+                            INPUT class="neArticleDate form-control" id="newArtilcleDate1-1-1"
+                            INPUT class="newArticleContent" id="newArticleContent1-1-1"
+                            INPUT class="newArticleChecked" id="newArticleChecked1-1-1"
+                            BUTTON save
+                            BUTTON dell
+
+
+
+
+
 # Afficher ou non form
 
 ## Sélectionner contenu

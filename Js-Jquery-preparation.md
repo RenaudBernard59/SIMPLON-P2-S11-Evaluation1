@@ -5,8 +5,8 @@
             ARTICLE class="projectPresentation"
                 P class="oldProjectPresentation" + BUTTON edit
                 FORM class="form newProjectPresentation"
-                    INPUT class"projectTitleForm" id="projectTitleForm1"
-                    INPUT class"projectPresentationForm" I id="projectPresentationForm1"
+                    INPUT name"projectTitleForm" id="projectTitleForm1"
+                    TEXTAREA name"projectPresentationForm" I id="projectPresentationForm1"
                     BUTTON save
         DIV BUTTON dell    
         SECTION class="projectContent container
@@ -16,22 +16,37 @@
                     ARTICLE class="tablePresentation"
                         P class="oldProjectPresentation" + BUTTON edit
                         FORM class"newTablePresentation"
-                            INPUT class="tableTitleForm" id="tableTitleForm1-1"
-                            INPUT class="tablePresenationForm" id="tablePresenationForm1-1"
+                            INPUT name="tableTitleForm" id="tableTitleForm1-1"
+                            TEXTAREA name="tablePresenationForm" id="tablePresenationForm1-1"
                             BUTTON save
                 DIV BUTTON dell  
                 SECTION class="tableContent"
                     ARTICLE class="articles"
                         DIV class="articleContent" + BUTTON edit
                         FORM class ="newArticle"
-                            INPUT class="neArticleDate form-control" id="newArtilcleDate1-1-1"
-                            INPUT class="newArticleContent" id="newArticleContent1-1-1"
-                            INPUT class="newArticleChecked" id="newArticleChecked1-1-1"
+                            INPUT class="newArticleDate form-control" id="newArtilcleDate1-1-1"
+                            INPUT name="newArticleContent" id="newArticleContent1-1-1"
+                            INPUT name="newArticleChecked" id="newArticleChecked1-1-1"
                             BUTTON save
                             BUTTON dell
 
+  $list.on('click', 'li', function() {
+    var $this = $(this);
+    $this.remove();
+  });
 
+button
+id="editProjectPresentatio1n" > p class="oldProjectPresentation" id="oldProjectPresentation1"HIDDEN >Form
+id="saveProjectPresentationForm1" >form class="form editProjectPresentation" id="editProjectPresentation1" HIDDEN > p
+id="dellProjectPresentation1" > section class="project" id="project1"> 
 
+id="editTablePresentation1-1" > p class="oldTablePresentation" id="oldTablePresentation1-1"
+id="saveTablePresentationForm1-1" > form class="form editTablePresentation" id="editTablePresentation1-1"
+id="dellTablePresentation1-1" > section class="project" id="table1-1"> 
+
+id="editArticleContent1-1-1" > p class="articleContent" id="articleContent1-1-1"
+id="saveArticleContentForm1-1-1" > form class="form-inline editArticle" id="editArticle1-1-1"
+id="dellArticle1-1-1" >article class="articles" id="article1-1-1">
 
 
 # Afficher ou non form

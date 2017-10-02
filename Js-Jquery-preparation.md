@@ -19,14 +19,23 @@ $('article[class="tableContent pro1 tab1 art1"] form[class="form-inline"]')
 
 ## Switcher les classes HIDDEN ou non
 ### Project
-
+MonProjet.show()
+MonProjet.hide()
+Transitions en fondu
+MonProjet.fadeIn(600) 'slow' 0.5s
+MonProjet.fadeOut(300) 'fast' 0.2s DEFAULT 400
 ### Table
 
 ### Article
 
 ## Récupérer contenu des formulaires
 ### Project
-
+MonContenu.replaceWith() // Remplace par
+MonContenu.prependd() // Ecrit à l'intérieur des balises
+MonContenu.attr() // Récupère/Insère Attribu
+MonContenu.removeAttr() //Suppr Attribu
+MonContenu.addClass() 
+MonContenu.removeClass()
 ### Table
 
 ### Article

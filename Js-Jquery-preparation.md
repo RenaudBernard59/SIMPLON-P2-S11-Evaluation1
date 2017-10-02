@@ -47,6 +47,39 @@ id="dellTablePresentation1-1" > section class="project" id="table1-1">
 id="editArticleContent1-1-1" > p class="articleContent" id="articleContent1-1-1"
 id="saveArticleContentForm1-1-1" > form class="form-inline editArticle" id="editArticle1-1-1"
 id="dellArticle1-1-1" >article class="articles" id="article1-1-1">
+--------------------
+$('button[id="editProjectPresentation1"]')
+<<< HIDDEN $('p[id="oldProjectPresentation1"]') ECHO $('button[id="formProjectPresentation1"]')
+&&& GOOD
+$('button[id="saveProjectPresentationForm1"]')
+<<< HIDDEN $('form[id="editProjectPresentation1"]')' ECHO $('p[id="oldProjectPresentation1"]')
+&&& GOOD
+$('button[id="dellProjectPresentation1"]')
+<<< SUPPRIMER $('section[id="project1"]')
+&&& GOOD
+&&&&&&&&&&&&&&&&&& IDEM POUR STRUCTURE RESTANTE
+$('button[id="editTablePresentation1-1"]')
+<<< class="oldTablePresentation" id="oldTablePresentation1-1"
+&&&
+$(button[id="saveTablePresentationForm1-1"]')
+<< form class="form editTablePresentbation" id="editTablePresentation1-1"
+&&&
+$('button[id="dellTablePresentation1-1"]')
+<<< section class="project" id="table1-1"> 
+&&&&&&&&&&&&&&&&&&
+$('button[id="editArticleContent1-1-1"]')
+<<< p class="articleContent" id="articleContent1-1-1"
+&&&
+$('button[id="saveArticleContentForm1-1-1"]')
+<<< form class="form-inline editArticle" id="editArticle1-1-1"
+&&&
+$('button[id="dellArticle1-1-1"]')
+<<< article class="articles" id="article1-1-1">
+&&&&&&
+
+
+
+
 
 
 # Afficher ou non form

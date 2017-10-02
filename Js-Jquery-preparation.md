@@ -109,6 +109,11 @@ MonContenu.removeClass()
 # EVENTS sur les boutons
 ## New
 ### Project
+.on('click', function() { … }
+
+$('p').on( 'click', function () {
+    alert("Quelqu'un a cliqué sur un paragraphe!")
+});
 
 ### Table
 
